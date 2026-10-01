@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.alialtunar/model-price-radar-mcp",
+  "title": "Model Price Radar",
+  "description": "LLM prices on OpenRouter now and since 2023: history, drops, cheapest model for a job. No API keys.",
+  "repository": { "url": "https://github.com/alialtunar/model-price-radar-mcp", "source": "github" },
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "registryBaseUrl": "https://pypi.org",
+      "identifier": "model-price-radar-mcp",
+      "version": "0.1.0",
+      "runtimeHint": "uvx",
+      "transport": { "type": "stdio" }
+    }
+  ]
+}
