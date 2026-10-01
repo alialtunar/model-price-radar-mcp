@@ -91,6 +91,18 @@ Model names are forgiving: `"claude sonnet"` resolves to the newest Sonnet, `"ll
 - History has one point per archived month, so a change is dated "between these two months".
 - Models are tracked by OpenRouter id; a renamed id starts a new history.
 
+## Part of the keyless MCP series
+
+Open-source MCP servers that answer one market question each, with public data and no API keys.
+
+| Server | Question it answers |
+|---|---|
+| [review-miner-mcp](https://github.com/alialtunar/review-miner-mcp) | What do users hate about competitor apps and games? (App Store + Steam reviews) |
+| [pricing-time-machine-mcp](https://github.com/alialtunar/pricing-time-machine-mcp) | How did a SaaS pricing page change over the years? (Wayback Machine) |
+| [hn-hiring-trends-mcp](https://github.com/alialtunar/hn-hiring-trends-mcp) | Which skills are tech companies hiring for, and which are rising? (HN Who is hiring) |
+| **model-price-radar-mcp** (this one) | What does each LLM cost, and did it get cheaper? (OpenRouter + price history) |
+| [launch-detector-mcp](https://github.com/alialtunar/launch-detector-mcp) | What is a company about to launch? (certificate transparency logs) |
+
 ## Development
 
 ```bash
